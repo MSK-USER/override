@@ -1,0 +1,10 @@
+#!name = 跳过代理
+name: SkipTheAgent
+desc: 自定义跳过代理
+rules:
+  - 'DOMAIN-SUFFIX,bing.com,DIRECT'
+  - 'DOMAIN-SUFFIX,bing.cn,DIRECT'
+  - 'DOMAIN-SUFFIX,bing.net,DIRECT'
+  - 'DOMAIN-SUFFIX,apple.com,DIRECT'
+  - 'DOMAIN-SUFFIX,icloud.com,DIRECT'
+  
