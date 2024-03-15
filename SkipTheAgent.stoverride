@@ -6,5 +6,4 @@ rules:
   - 'DOMAIN-SUFFIX,bing.cn,DIRECT'
   - 'DOMAIN-SUFFIX,bing.net,DIRECT'
   - 'DOMAIN-SUFFIX,apple.com,DIRECT'
-  - 'DOMAIN-SUFFIX,icloud.com,DIRECT'
   
