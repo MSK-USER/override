@@ -7,3 +7,4 @@ rules:
   - 'DOMAIN-SUFFIX,bing.net,DIRECT'
   - 'DOMAIN-SUFFIX,apple.com,DIRECT'
   - 'DOMAIN-SUFFIX,icloud.com,DIRECT'
+  - 'DOMAIN-SUFFIX,download.jetbrains.com,DIRECT'
