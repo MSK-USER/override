@@ -1,0 +1,2 @@
+proxy-groups:
+    - { name: ChatGPT, type: select, include-all: true, filter: 'GPT' }
