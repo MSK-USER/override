@@ -2,7 +2,7 @@
 name: GroupOfChatGPT
 desc: GPT组
 proxy-groups: #!replace
-    - { name: Choose, type: SELECT, proxies: [ALL,ChatGPT] }
+    - { name: Choose, type: select, proxies: [ALL,ChatGPT] }
     - { name: ALL, type: url-test, include-all: true}
     - { name: ChatGPT, type: url-test, include-all: true, filter: 'GPT' }
 
