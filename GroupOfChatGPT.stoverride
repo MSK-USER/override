@@ -1,5 +1,5 @@
 #!name = GPT组
 name: GroupOfChatGPT
 desc: GPT组
-proxy-groups:
+proxy-groups: #!replace
     - { name: ChatGPT, type: url-test, include-all: true, filter: 'GPT' }
