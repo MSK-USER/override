@@ -1,2 +1,5 @@
+#!name = GPT组
+name: GroupOfChatGPT
+desc: GPT组
 proxy-groups:
-    - { name: ChatGPT, type: select, include-all: true, filter: 'GPT' }
+    - { name: ChatGPT, type: url-test, include-all: true, filter: 'GPT' }
