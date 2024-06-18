@@ -2,6 +2,4 @@
 name: GroupOfChatGPT
 desc: GPT组
 proxy-groups:
-    - { name: 飞鸟云, type: select, proxies: [ChatGPT,ALL] }
     - { name: ChatGPT, type: url-test, include-all: true, filter: 'GPT' }
-    - { name: ALL, type: url-test, include-all: true }
